@@ -1,0 +1,42 @@
+commit 87791ece1860175451619a923d0e6132ced0bfd9
+Author: Stefan Rikaloski <stefanrikaloski@outlook.com>
+Date:   Sun Apr 2 14:51:21 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit c054f2144294380a5b53c2058888485bbd6fdc3f
+Merge: 426d3a3 3469f8a
+Author: Stefan Rikaloski <stefanrikaloski@outlook.com>
+Date:   Sun Apr 2 15:01:39 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 3469f8a06666d9c280420e96012236c7fc8a6d75
+Author: Stefan Rikaloski <stefanrikaloski@outlook.com>
+Date:   Sun Apr 2 14:48:54 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 426d3a3b84ce997b118046c709220077fd6dbe27
+Author: Stefan Rikaloski <stefanrikaloski@outlook.com>
+Date:   Sun Apr 2 14:46:45 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 5bde2a43b9425c7d4ebc9c4a173cf0ea31b3b508
+Author: Stefan Rikaloski <stefanrikaloski@outlook.com>
+Date:   Sun Apr 2 14:43:46 2023 +0200
+
+    Add java class
+
+commit 622c6516daf0ad30b02ba6132c532514965a7ae3
+Author: rikaloskistefan77 <127146577+rikaloskistefan77@users.noreply.github.com>
+Date:   Sun Apr 2 14:39:55 2023 +0200
+
+    Initial commit
+
+commit def1085ec584d2a2acc7d22176ffbdfeee5038ed
+Author: rikaloskistefan77 <127146577+rikaloskistefan77@users.noreply.github.com>
+Date:   Sun Apr 2 14:39:15 2023 +0200
+
+    Initial commit
