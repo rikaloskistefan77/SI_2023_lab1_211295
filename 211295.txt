@@ -1,0 +1,38 @@
+- Иницијализацијата на $git init во локалниот директориум SI_2023_lab1_211295. 
+
+- Поврзувањето на локалниот со оддалечениот репозиториум : $git remote add origin github.com/rikaloskistefan77/SI_2023_lab1_211295
+
+- Бидејќи го креирав README.md директно, ја повикав командата $git clone github.com/rikaloskistefan77/SI_2023_lab1_211295.git, за да го превземам фајлот.
+
+- Фајлот SILab1.java, го додадов со $git add SILab1.java
+
+- $git commit -m "Add java class" - за пораката на commitot.
+
+- Креирање на гранки 
+ 
+$git branch bug1
+ 
+$git branch bug2 
+ 
+$git branch bug2
+
+
+- После поправање на грешката во for циклусот каде што внесуваме N броеви од стандарден инпут, повикав $git checkout bug1 за да влезам во 
+гранката, па ја додадов со $git add SILab1.java и со $git commit -m "Fix wrong loop for reading" го доставив commit-от за таа промена.   
+
+- После поправање на грешката во методот со непарни броеви, повикав $git checkout bug2 за да влезам во 
+гранката, па ја додадов со $git add SILab1.java и со $git commit -m "Fix wrong condition in filterOddNumbers" го доставив commit-от за таа промена.  
+
+- После поправање на грешката во методот sumEvenNumbers, повикав $git checkout bug3 за да влезам во 
+гранката, па ја додадов со $git add SILab1.java и со $git commit -m "Fix method sumEvenNumbers"го доставив commit-от за таа промена.  
+
+- Потоа за bug1 i bug2 гранките направив прво merge со командата $git merge bug1, $git merge bug2, па после двете спојувања 
+ја извржив командата $git push origin master за синхронизација.
+
+- Во следниот чекор направив $git checkout bug3, па $git rebase master
+
+- Уште остана да го споиме bug3 со master а тоа го правиме со $git merge bug3 и синхронизација со $git push origin master.
+
+-Логовите ги ископирав со $git log > logs.txt
+
+- Го додадов овој документ со $git add 211295.txt i го направив последниот commit со порака "Final commit" и ја извржив командата $git push origin master за да го поставам на оддалечениот директориум.
